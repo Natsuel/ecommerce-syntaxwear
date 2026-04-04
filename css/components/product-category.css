@@ -1,0 +1,66 @@
+/* product-category.css */
+
+.categories {
+    background-color: #f5ba72;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-card {
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.category-name {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    text-align: center;
+}
+
+.category-name:hover {
+    background-color: #6329A2;
+    border-color: #6329A2;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+
+.casual {
+    background-image: url('../../images/products/casual.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.esporte {
+    background-image: url('../../images/products/esportivo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.moderno {
+    background-image: url('../../images/products/moderno.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.futurista {
+    background-image: url('../../images/products/futurista.jpg');
+    background-size: cover;
+    background-position: center;
+}
