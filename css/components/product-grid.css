@@ -1,1 +1,73 @@
 /* product-grid.css */
+
+.highlight {
+    grid-area: highlight;
+    background: url(../../images/cards/man-card.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #EDEDED;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 8%;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    font-size: 1.50rem;
+    color: #EDEDED;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 8%;
+    margin: 0 7px 20px 7px;
+}
+
+.sneaker-purple {
+    grid-area: sneaker-purple;
+    background: url(../../images/products/tênis-roxo-e-verde.jpg) no-repeat center/cover;
+}
+
+.model {
+    grid-area: model;
+    background: url(../../images/cards/woman-card.jpg) no-repeat center/cover;
+}
+
+.sneaker-colorful {
+    grid-area: sneaker-colorful;
+    background: url(../../images/products/tênis-colorido.jpg) no-repeat center/cover;
+}
+
+.sneaker-black-white {
+    grid-area: sneaker-black-white;
+    background: url(../../images/products/tênis-preto-branco.jpg) no-repeat center/cover;
+}
+
+.sneaker-silver {
+    grid-area: sneaker-silver;
+    background: url(../../images/products/Tênis-prateado.jpg) no-repeat center/cover;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "highlight highlight sneaker-purple sneaker-purple"
+        "highlight highlight  model sneaker-colorful"
+        "sneaker-black-white sneaker-black-white model sneaker-silver";
+    gap: 30px;
+}
+
+.cta-group {
+    display: flex;
+    gap: 10px;
+}

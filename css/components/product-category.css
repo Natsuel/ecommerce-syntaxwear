@@ -1,7 +1,6 @@
 /* product-category.css */
 
 .categories {
-    background-color: #f5ba72;
     padding: 40px 0;
     display: flex;
     flex-wrap: wrap;
