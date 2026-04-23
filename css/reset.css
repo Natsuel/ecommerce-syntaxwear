@@ -54,7 +54,7 @@ ul {
 img,
 picture {
     max-width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 /* Inherit fonts for inputs and buttons */
