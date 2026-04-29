@@ -89,7 +89,11 @@
     border: 2px solid #ffffff;
     text-align: center;
     border-radius: 50%;
-    padding: 0.09375rem;
+    padding: 0.0100rem;
+}
+
+.social-links a img {
+    padding-top: 5px;
 }
 
 .social-links a:hover {
@@ -104,5 +108,27 @@
     font-size: 1.25rem;
     text-align: center;
     padding: 1.25rem 0;
+}
+
+@media (max-width: 1000px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .social-links {
+        gap: 1rem;
+    }
+
+    .footer-bottom {
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem;
+    }
 }
 
