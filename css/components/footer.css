@@ -93,7 +93,8 @@
 }
 
 .social-links a img {
-    padding-top: 5px;
+    margin-top: 5px;
+    padding: 2px;
 }
 
 .social-links a:hover {
